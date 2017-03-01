@@ -70,8 +70,8 @@
   import ratingselect from 'components/ratingselect/ratingselect';
   import moment from 'moment';
   import Vue from 'vue';
-  //  const POSITIVE = 0;
-  //  const NEGATIVE = 1;
+  const POSITIVE = 0;
+  const NEGATIVE = 1;
   const ALL = 2;
   export default {
     props: {

@@ -25,6 +25,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     // 每一句结尾需要分号
     'semi': ['error','always'],
-    'space-before-function-paren': 0
+    'space-before-function-paren': 0,
+    'no-unused-vars': 0,
   }
 }
